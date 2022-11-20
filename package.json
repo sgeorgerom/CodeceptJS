@@ -50,7 +50,7 @@
     "publish:site": "./runok.js publish:site",
     "update-contributor-faces": "contributor-faces .",
     "dtslint": "dtslint typings --localTs './node_modules/typescript/lib'",
-    "prepare": "husky install"
+    "prepare": "./runok.js def"
   },
   "dependencies": {
     "@codeceptjs/configure": "^0.8.0",
